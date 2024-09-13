@@ -2,15 +2,15 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import injectContext from "./store/appContext";
 //custom components
-import ScrollToTop from "./component/ScrollToTop";
-import { BackendURL } from "./component/BackendURL";
+import ScrollToTop from "./component/ScrollToTop.jsx";
+import { BackendURL } from "./component/BackendURL.jsx";
 
-import { Navbar } from "./component/Navbar";
-import { Footer } from "./component/Footer";
+import { Navbar } from "./component/Navbar.jsx";
+import { Footer } from "./component/Footer.jsx";
 //custom pages/views
-import { Home } from "./pages/Home";
-import { Demo } from "./pages/Demo";
-import { Single } from "./pages/Single";
+import { Home } from "./pages/Home.jsx";
+import { Demo } from "./pages/Demo.jsx";
+import { Single } from "./pages/Single.jsx";
 
 
 //create your first component
